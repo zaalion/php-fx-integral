@@ -97,7 +97,7 @@
 			imagestring ($image, 2, 40, $this->dimy-35, $this->x_start, $col1);
 			imagestring ($image, 2, 20, $this->dimy-25, "sum(".str_replace('$x','x',$this->function_x).')= '.$this->sum, $col1);
 			imagestring ($image, 2, 40, $this->dimy-15, $this->x_end, $col1);
-			imagejpeg($image,"",100);
+			imagejpeg($image,null,100);
 			}	
 		}				
 ?>
